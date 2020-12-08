@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body {
+  min-width: 320px;
+  overflow-x: hidden; }
+
+.header__top-box {
+  grid-template: a; }
+
+/*# sourceMappingURL=style.css.map */
