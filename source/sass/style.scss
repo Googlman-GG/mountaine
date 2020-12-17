@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 320px;
+    max-width: 1200px;
+    overflow-x: hidden;
+    text-align: center
+}
+
+@import "normalize.scss";
+
+@import "header.scss";
