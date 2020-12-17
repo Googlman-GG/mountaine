@@ -12,6 +12,9 @@ body {
   overflow-x: hidden;
   text-align: center; }
 
+li {
+  list-style: none; }
+
 article,
 aside,
 details,

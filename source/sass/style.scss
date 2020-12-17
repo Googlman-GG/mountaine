@@ -15,6 +15,10 @@ body {
     text-align: center
 }
 
+li {
+    list-style: none
+}
+
 @import "normalize.scss";
 
 @import "header.scss";
