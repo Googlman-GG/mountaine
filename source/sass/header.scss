@@ -1,5 +1,38 @@
 .header {
-    
-    background-color: #000;
-  background-image: url("/source/img/Rectangle 1.jpg");
+  background-image: url("../img/rectangle1.jpg");
+  background-position: center center;
+}
+
+.header__top-nav {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.header__top-nav__left,
+.header__top-nav__right {
+  display: flex;
+}
+
+.main__nav-list {
+  display: flex;
+  padding: 15px 40px;
+}
+
+.main__nav-list__item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+     font-size: 16px;
+  line-height: 19px;
+  padding: 0 20px;
+  color: $w_font;
+}
+
+.logo {
+  padding: 30px 0;
+}
+
+.phone-number {
+  color: $w_font;
 }
