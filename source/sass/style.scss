@@ -12,9 +12,13 @@ body {
     min-width: 320px;
     max-width: 1200px;
     overflow-x: hidden;
-    text-align: center
+}
+
+li {
+    list-style: none
 }
 
 @import "normalize.scss";
+@import "color.scss";
 
 @import "header.scss";
